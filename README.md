@@ -1,12 +1,21 @@
-!pip install kneed
+**Este projeto tem como objetivo extrair, limpar e analisar um conjunto de dados obtido do Kaggle, aplicando técnicas de clusterização para identificar padrões e agrupar observações semelhantes.**
 
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.cluster import KMeans
-from sklearn.preprocessing import StandardScaler, OneHotEncoder,LabelEncoder
-from kneed import KneeLocator
+O dataset foi extraído do Kaggle ([https://www.kaggle.com/datasets/sbalharabalhara/customer-shopping-trends?resource=download]).
 
 
-df=pd.read_csv("/content/shopping_trends.csv")
-df.head(1)
+**Etapas do projeto**
+
+1º Coleta de dados
+
+2º Limpeza e Pré-processamento
+
+3º Análise Exploratória
+
+4º Clusterização com K-Means
+
+
+**Conclusão**
+
+Os clusters identificados revelaram padrões importantes no conjunto de dados, permitindo uma segmentação significativa dos registros.
+
+![image](https://github.com/user-attachments/assets/227002be-3f78-40db-a30e-cc5d59f4a804)
