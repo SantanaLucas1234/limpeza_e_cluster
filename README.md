@@ -3,7 +3,7 @@
 O dataset foi extraído do Kaggle ([https://www.kaggle.com/datasets/sbalharabalhara/customer-shopping-trends?resource=download]).
 
 
-**Etapas do projeto**
+# **Etapas do projeto**
 
 1º Coleta de dados
 
